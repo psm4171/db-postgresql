@@ -1,0 +1,17 @@
+# PostgreSQL
+
+### PostgreSQL 특징
+
+- 객체 관계형 데이터베이스 관리 시스템(ORDBMS)
+- PostgreSQL는 읽기-쓰기 작업, 대규모 데이터 세트 및 복잡한 쿼리를 관리하는 경우에 선호됩니다. 그러나 읽기 전용 작업에는 선호되지 않습니다.
+- 효율적인 백업 및 복구 기능으로 정평이 나 있습니다.
+- UNIX 기반 시스템에 최적
+- 확장성으로 유명한 PostGIS 등
+- 인덱싱 기법 : GIN 및 GiST와 같은 고급 유형 제공
+- SQL 데이터 유형 : MySQL보다 다양하고, 배열, hstore 포함
+- 저장 프로시저 : PL/pgSQL 언어로 더욱 고급화
+
+- You can use to search for PostgreSQL and other packages. To find a specific major version of PostgreSQL, search for `postgresql@NN`, where `NN` represents the major version. For example,
+postgresql@15. 
+
+- brew install postgresql@15
