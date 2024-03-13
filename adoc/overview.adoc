@@ -15,3 +15,23 @@
 postgresql@15. 
 
 - brew install postgresql@15
+
+- pgAdmin 실행 화면
+
+![스크린샷 2024-03-13 오후 4.24.56.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/30914778-8bfa-404a-8db1-10f28062c17e/db4ed0d8-6a5d-41a3-a14c-039e4c031149/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2024-03-13_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_4.24.56.png)
+
+- PostgresSQL은 기본적으로 5432 포트를 사용한다.
+- Username에는 PostgreSQL에 사용한 Username을 적어야한다. (생성 당시에 postgres가 아닌 test로 지정함.)
+
+![스크린샷 2024-03-13 오후 4.26.39.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/30914778-8bfa-404a-8db1-10f28062c17e/f0ec47f4-ddd6-4a6e-96c0-b41457da982d/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2024-03-13_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_4.26.39.png)
+
+- tutorials란 db - Shemas - public - Tables
+- Tables에서 컬럼을 생성하여 id와 title 같은 속성을 지정
+- serial : 늘어나는 변수
+- character varying : 늘어나는 캐릭터 가변 길이를 지정
+- text : 본문 내용
+- timestap with time zone : Default에 now() 함수 지정을 통해 등록한 시간을 자동으로 지정
+
+![스크린샷 2024-03-13 오후 5.43.57.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/30914778-8bfa-404a-8db1-10f28062c17e/406a253f-f6a2-4537-abba-181a81b8b7fd/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2024-03-13_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_5.43.57.png)
+
+- 테이블 생성을 통해 저장되는 SQL문은 다음과 같다.
