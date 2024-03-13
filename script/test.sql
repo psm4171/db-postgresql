@@ -10,5 +10,16 @@ CREATE TABLE public.topic
     PRIMARY KEY (id)
 );
 
+
 ALTER TABLE IF EXISTS public.topic
     OWNER to test;
+
+INSERT INTO topic (title, body) VALUES('Select', 'Select is ...'); 
+
+SELECT *FROM topic;
+
+SELECT id, title FROM topic WHERE id <> 1; 
+
+SELECT id, title FROM topic WHERE id > 1 ORDER BY id ASC limit 1;
+
+UPDATE topic SET title = 'Update', body = 'Select was changed' WHERE id = 8; 
