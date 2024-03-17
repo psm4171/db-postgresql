@@ -12,3 +12,9 @@ sex CHAR(1) NOT NULL,
 date_entered TIMESTAMP NOT NULL,
 id SERIAL PRIMARY KEY
 );
+
+INSERT INTO customer(first_name, last_name, email, company, street
+					, state, phone, birth_date, sex, date_entered)
+VALUES ('Park', 'seungmin', 'orton4171@naver.com', 'daone', 'Sujeong-gu Startup', 'KO', '010-1234-5678', '1998-05-04', 'M', current_timestamp);	
+
+select *from customer;
